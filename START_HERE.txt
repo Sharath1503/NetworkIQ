@@ -1,0 +1,17 @@
+NETWORKIQ AI UPGRADE — QUICK START
+
+1. Install Node.js 20+ and Python 3.10+.
+2. Open a terminal in the project folder, then:
+   cd backend
+   py -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   uvicorn main:app --reload --host 127.0.0.1 --port 8000
+3. Open a second terminal in the project folder:
+   npm install
+   npm run dev
+4. Open the Vite URL, normally http://localhost:5173.
+5. Open ML Workbench in the app. The first backend start trains a Random Forest from the included synthetic sales history.
+
+Read README.md for dataset format, evaluation caveats, API details, and optional OpenAI setup.
+Never describe synthetic-data metrics as real-world performance.
